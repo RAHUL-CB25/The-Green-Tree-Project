@@ -54,11 +54,89 @@
   padding: 0.5rem;
 }
 
+/* 
+styling for climate section */
+.main-section {
+  background-image: url("../assets/home/annie-spratt-135307-unsplash@2x-mobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  padding: 3rem;
+}
+
+.main-content-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.main-title {
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1;
+  font-style: italic;
+  margin-bottom: 8rem;
+}
+
+.main-title-layout {
+  align-self: flex-start;
+}
+
+.issue-card {
+  width: 100%;
+  background-color: #fff;
+  color: #354463;
+  padding: 2.5rem 1.25rem 1.5rem;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+}
+
+.issue-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.issue-label {
+  background-color: #354463;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  font-size: 0.75rem;
+}
+
+.issue-label-layout {
+  position: absolute;
+  top: -0.9rem;
+}
+
+.issue-title {
+  font-size: 1.25rem;
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+}
+
+.issue-text {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #354463;
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 480px) {
   .nav-container {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
   }
   .nav-top {
     flex-direction: column;
@@ -72,6 +150,51 @@
   .nav-btn {
     padding: 0.75rem 1.5rem;
   }
+
+  /* climate section */
+
+  .main-section {
+    background-image: url("../assets/home/annie-spratt-135307-unsplash-tab.png");
+    background-size: cover;
+  }
+  .main-content {
+    padding: 4rem;
+  }
+
+  .main-content-layout {
+    align-items: flex-start;
+  }
+  .main-title {
+    font-size: 3rem;
+    margin-bottom: 6rem;
+  }
+  .issue-card {
+    width: 40rem;
+    padding: 3rem 0 2.5rem;
+  }
+
+  .issue-label {
+    padding: 1rem;
+    font-size: medium;
+  }
+
+  .issue-label-layout {
+    position: absolute;
+    left: 2.8rem;
+  }
+
+  .issue-title {
+    padding: 0 4rem 1rem;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    text-align: start;
+  }
+
+  .issue-text {
+    width: calc(100% - 8rem);
+
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1080px) {
@@ -79,22 +202,89 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 3rem;
-    gap: 7rem;
+    padding: 1.5rem 8rem;
+    gap: 6rem;
   }
+
+
   .nav-top {
     flex: 1;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    gap: 3rem;
   }
+
+  .navbar-title h1 {
+  font-size: 1.4rem;
+  
+}
   .nav-links {
+    font-size: 1rem;
     flex-direction: row;
     justify-content: space-between;
-    gap: 6rem;
+    gap: 8rem;
   }
 
   .nav-links a {
     font-size: 1rem;
   }
+
+  /* climate section for desktop */
+  .main-section {
+    background-image: url("../assets/home/annie-spratt-135307-unsplash@2x-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50rem;
+  }
+
+  .main-content {
+    padding: 11rem;
+  }
+
+  .main-content-layout {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap : 25rem;
+  }
+
+  .main-title {
+    order: 2;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+  }
+
+  .issue-card {
+    order: 1;
+    padding: 4rem 3rem;
+    width: 36rem;       
+    min-height: 18rem; 
+  }
+  .issue-label {
+    padding: 0.75rem 2rem;
+    font-size: 0.9rem;
+  }
+
+   .issue-label-layout {
+    left: 2.5rem;
+    top: -0.9rem;
+  }
+
+   .issue-title {
+    font-size: 2rem;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+.main-title {
+    order: 2;
+    width: 20rem;
+    font-size: 3.5rem;
+    line-height: 1;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+
 }
