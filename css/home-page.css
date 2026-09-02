@@ -8,7 +8,7 @@
   padding: 1.25rem;
   background-color: #fff;
   gap: 1.25rem;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .nav-container {
@@ -136,8 +136,6 @@ styling for climate section */
   background-color: #c1f7d5;
   color: #354463;
   position: relative;
-
-  /* Space between TAKE ACTION and Learn/Volunteer */
   padding-top: 4rem;
 }
 
@@ -177,6 +175,93 @@ styling for climate section */
   font-weight: bold;
 }
 
+/* what we do design section */
+.what-we-do-label {
+  color: #354463;
+  font-size: 0.7rem;
+  text-align: center;
+  border: none;
+  background-color: #fff;
+  width: 11rem;
+  height: 1.4rem;
+  padding: 0.6rem;
+  font-size: 1.1rem;
+  margin: 3.3rem 6.75rem 0 6.75rem;
+}
+
+.what-we-do-container {
+  background-color: #354463;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.what-we-do-container p {
+  font-size: 1.46rem;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+.what-we-do-card-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.12rem;
+  padding: 1rem 0.62rem;
+}
+.what-we-do-card {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: white;
+}
+
+.what-we-do-content p {
+  margin-top: 20px;
+  color: #354463;
+  font-size: 0.93rem;
+  font-weight: 100;
+  line-height: 1.6rem;
+}
+
+.what-we-do-content h4 {
+  color: #354463;
+  font-size: 1.2rem;
+}
+
+.img {
+  width: 15.5rem;
+  height: 11rem;
+  object-fit: cover;
+  position: relative;
+  top: 0;
+  transform: translateY(-10%);
+}
+
+.what-we-do-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.what-we-do-btn {
+  background-color: #c1f7d5;
+  color: #354463;
+  margin-bottom: 0.9rem;
+  border: none;
+  border-radius: 20px;
+  width: 156px;
+  padding: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 480px) {
   .nav-container {
     flex-direction: row;
@@ -191,6 +276,7 @@ styling for climate section */
   .nav-links {
     flex-direction: row;
     gap: 1.5rem;
+    margin-top: 0.5rem;
   }
   .nav-btn {
     padding: 0.75rem 1.5rem;
@@ -201,6 +287,7 @@ styling for climate section */
   .main-section {
     background-image: url("../assets/home/annie-spratt-135307-unsplash-tab.png");
     background-size: cover;
+    height: 44.34rem;
   }
   .main-content {
     padding: 4rem;
@@ -245,7 +332,93 @@ styling for climate section */
   .action-box h3 {
     font-size: 1.5rem;
   }
+
+  /* WHAT WE DO - TABLET */
+
+  .what-we-do-card-holder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    box-sizing: border-box;
+    padding: 3rem 1rem 3rem;
+  }
+
+  .what-we-do-label {
+    align-self: flex-start;
+    margin-left: 4rem;
+  }
+
+  .what-we-do-container > p {
+    align-self: flex-start;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.3;
+    text-align: left;
+  }
+
+  .what-we-do-card {
+    width: 85%;
+    min-height: 17rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    padding: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+    min-width: 0;
+  }
+
+  .what-we-do-card .img {
+    width: 18rem;
+    height: 12.5rem;
+    position: absolute;
+    left: 2rem;
+    top: 0;
+    transform: translateY(-15%);
+  }
+
+  .what-we-do-content {
+    grid-column: 2;
+    width: auto;
+    margin: 0;
+    padding: 2rem 1.5rem 1rem 1rem;
+    align-items: flex-start;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+  .what-we-do-content h4 {
+    width: 100%;
+    max-width: 15rem;
+    font-size: 1.5rem;
+    line-height: 1.3rem;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 2rem;
+  }
+  .what-we-do-content p {
+    width: 100%;
+    font-size: 0.93rem;
+    line-height: 1.6rem;
+    text-align: left;
+    margin-left: 0;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+  }
+
+  .what-we-do-card button {
+    position: absolute;
+    left: 25%;
+    bottom: 2rem;
+    margin: 0;
+  }
 }
+
+/* 
+for desktop responsive */
 
 @media screen and (min-width: 1080px) {
   .nav-container {
@@ -278,7 +451,6 @@ styling for climate section */
     font-size: 1rem;
   }
 
-  /* climate section for desktop */
   .main-section {
     background-image: url("../assets/home/annie-spratt-135307-unsplash@2x-desktop.png");
     background-size: cover;
@@ -288,7 +460,6 @@ styling for climate section */
 
   .main-content {
     padding: 8rem;
-
   }
 
   .main-content-layout {
@@ -335,7 +506,6 @@ styling for climate section */
     margin-bottom: 0;
   }
 
-  /* TAKE ACTION */
   .action-wrapper-layout {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -343,8 +513,82 @@ styling for climate section */
   .action-box h3 {
     font-size: 2rem;
   }
- .action-wrapper{
-  padding:4rem 8rem;
- }
+  .action-wrapper {
+    padding: 4rem 8rem;
+  }
 
+  .what-we-do-container > p {
+    font-size: 2.4rem;
+    padding: 0 5rem;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  .what-we-do-card-holder {
+    display: flex;
+    flex-direction: row;
+    padding: 6rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 8rem;
+    width: 100%;
+    
+  }
+
+  .what-we-do-card {
+    /* width: 19rem; */
+    /* max-width: 19rem; */
+    min-height: 25rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 1.5rem 1.5rem;
+    box-sizing: border-box;
+    
+  }
+
+  .what-we-do-card .img {
+    width: 19rem;
+    height: 13.75rem;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    transform: translateY(-8%);
+  }
+
+  .what-we-do-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    grid-column: auto;
+  }
+
+  .what-we-do-content h4 {
+    width: 100%;
+    max-width: none;
+    color: #354463;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin: 0 0 1rem;
+    text-align: left;
+  }
+
+  .what-we-do-content p {
+    width: 100%;
+    color: #354463;
+    font-size: 0.93rem;
+    line-height: 1.6rem;
+    margin: 0;
+    text-align: left;
+  }
+
+  .what-we-do-card button {
+    position: static;
+    align-self: flex-start;
+    margin-top: 1.5rem;
+  }
 }
