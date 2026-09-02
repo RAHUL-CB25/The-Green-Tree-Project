@@ -80,6 +80,7 @@ styling for climate section */
 
 .main-title {
   color: #fff;
+  font-family: "flood-std", regular;
   font-size: 2.5rem;
   line-height: 1;
   font-style: italic;
@@ -131,12 +132,56 @@ styling for climate section */
   text-decoration: underline;
 }
 
+.action-style {
+  background-color: #c1f7d5;
+  color: #354463;
+  position: relative;
+
+  /* Space between TAKE ACTION and Learn/Volunteer */
+  padding-top: 4rem;
+}
+
+/* TAKE ACTION box */
+
+.action-style h2 {
+  position: absolute;
+  top: -0.9375rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 9.375rem;
+  padding: 1rem;
+  background-color: #344766;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/* TAKE ACTION - LAYOUT */
+.action-wrapper-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.action-wrapper {
+  padding: 1rem;
+}
+
+/* INDIVIDUAL BOXES */
+
+.action-box {
+  padding: 1rem 1.5rem 1rem 2rem;
+}
+
+.action-box h3 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 480px) {
   .nav-container {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
   }
   .nav-top {
     flex-direction: column;
@@ -195,6 +240,11 @@ styling for climate section */
 
     text-align: left;
   }
+
+  /* take action part */
+  .action-box h3 {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 1080px) {
@@ -206,7 +256,6 @@ styling for climate section */
     gap: 6rem;
   }
 
-
   .nav-top {
     flex: 1;
     flex-direction: row;
@@ -216,9 +265,8 @@ styling for climate section */
   }
 
   .navbar-title h1 {
-  font-size: 1.4rem;
-  
-}
+    font-size: 1.4rem;
+  }
   .nav-links {
     font-size: 1rem;
     flex-direction: row;
@@ -239,14 +287,15 @@ styling for climate section */
   }
 
   .main-content {
-    padding: 11rem;
+    padding: 8rem;
+
   }
 
   .main-content-layout {
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    gap : 25rem;
+    gap: 25rem;
   }
 
   .main-title {
@@ -258,33 +307,44 @@ styling for climate section */
   .issue-card {
     order: 1;
     padding: 4rem 3rem;
-    width: 36rem;       
-    min-height: 18rem; 
+    width: 36rem;
+    min-height: 18rem;
   }
   .issue-label {
     padding: 0.75rem 2rem;
     font-size: 0.9rem;
   }
 
-   .issue-label-layout {
+  .issue-label-layout {
     left: 2.5rem;
     top: -0.9rem;
   }
 
-   .issue-title {
+  .issue-title {
     font-size: 2rem;
     line-height: 1.2;
     text-align: left;
   }
 
-.main-title {
+  .main-title {
     order: 2;
     width: 20rem;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     line-height: 1;
     margin-top: 1rem;
     margin-bottom: 0;
   }
 
+  /* TAKE ACTION */
+  .action-wrapper-layout {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .action-box h3 {
+    font-size: 2rem;
+  }
+ .action-wrapper{
+  padding:4rem 8rem;
+ }
 
 }
