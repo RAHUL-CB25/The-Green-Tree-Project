@@ -37,6 +37,7 @@
 .nav-links li {
   margin-bottom: 0.5rem;
 }
+
 .nav-links a {
   text-decoration: none;
   color: #354463;
@@ -160,6 +161,7 @@ styling for climate section */
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .action-wrapper {
   padding: 1rem;
 }
@@ -184,7 +186,7 @@ styling for climate section */
   align-items: center;
   gap: 1.25rem;
   padding-bottom: 2.5rem;
-  }
+}
 
 .what-we-do-label {
   color: #354463;
@@ -208,6 +210,7 @@ styling for climate section */
   padding-left: 2.25rem;
   padding-right: 2.25rem;
 }
+
 .what-we-do-card-holder {
   display: flex;
   flex-direction: column;
@@ -215,6 +218,7 @@ styling for climate section */
   gap: 3.12rem;
   padding: 1rem 0.62rem;
 }
+
 .what-we-do-card {
   width: 85%;
   display: flex;
@@ -267,25 +271,24 @@ styling for climate section */
 
 /* Take action today container start */
 
- .take-action-today-container{
+.take-action-today-container {
   background-image: url("/assets//home/takeaction@2x.png");
   padding: 3rem;
   background-repeat: no-repeat;
   background-size: cover;
+}
 
- }
-
- .taken-action-logo h2{
+.taken-action-logo h2 {
   margin-bottom: 2rem;
 }
 
- .taken-action-logo{
+.taken-action-logo {
   display: flex;
   flex-direction: column;
- }
+}
 
- .take-action-btn{
-   background-color: #c1f7d5;
+.take-action-btn {
+  background-color: #c1f7d5;
   color: #354463;
   border: none;
   border-radius: 3rem;
@@ -294,34 +297,30 @@ styling for climate section */
   font-weight: bold;
   margin-bottom: 3rem;
   width: max-content;
- }
+}
 
- 
-.taken-action-card-holder{
+.taken-action-card-holder {
   display: grid;
   gap: 2rem;
 }
 
- .taken-action-card{
+.taken-action-card {
   background-color: #fff;
   position: relative;
   padding: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
- }
- .action-card-logo-container{
+}
+
+.action-card-logo-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 1.5rem;
-  
-  
- }
+}
 
- .img-logo{
+.img-logo {
   background-color: #c1f7d5;
   width: 0.5rem;
   height: 0.5rem;
@@ -330,25 +329,86 @@ styling for climate section */
   justify-content: center;
   align-items: center;
   border-radius: 50%;
- }
+}
 
- .action-card-title{
+.action-card-title {
   color: #354463;
-  
+}
 
- }
+.action-card-content {
+  color: #354463;
+}
 
-  .action-card-content{
-    color: #354463;
+.action-card-text-container {
+  display: grid;
+  gap: 1rem;
+}
 
-  }
+/* stories section */
+.stories-container {
+  padding: 3.5rem;
+}
 
-  .action-card-text-container{
-    display: grid;
-    gap: 1rem;
-  }
+.story-image-holder {
+  position: relative;
+}
 
+.story-image-holder img {
+  width: max-content;
+}
 
+.story-image-holder span {
+  position: absolute;
+  top: -0.9375rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 9.375rem;
+  padding: 1rem;
+  background-color: #344766;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.story-text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story-text-container {
+  margin-top: 20px;
+  background-color: #354463;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.story-text-heading {
+  color: white;
+  font-size: 1.46rem;
+  font-weight: bold;
+}
+
+.story-text-footer {
+  color: white;
+  font-size: 0.73rem;
+  margin-top: 17px;
+}
+
+.story-btn {
+  margin: 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: #c1f7d5;
+  width: 156px;
+  padding: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #354463;
+}
 
 @media screen and (min-width: 480px) {
   .nav-container {
@@ -356,16 +416,19 @@ styling for climate section */
     justify-content: space-between;
     align-items: center;
   }
+
   .nav-top {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
   }
+
   .nav-links {
     flex-direction: row;
     gap: 1.5rem;
     margin-top: 0.5rem;
   }
+
   .nav-btn {
     padding: 0.75rem 1.5rem;
   }
@@ -377,6 +440,7 @@ styling for climate section */
     background-size: cover;
     height: 44.34rem;
   }
+
   .main-content {
     padding: 4rem;
   }
@@ -384,10 +448,12 @@ styling for climate section */
   .main-content-layout {
     align-items: flex-start;
   }
+
   .main-title {
     font-size: 3rem;
     margin-bottom: 6rem;
   }
+
   .issue-card {
     width: 40rem;
     padding: 3rem 0 2.5rem;
@@ -422,7 +488,6 @@ styling for climate section */
   }
 
   /* WHAT WE DO - TABLET */
-
   .what-we-do-card-holder {
     width: 100%;
     display: flex;
@@ -478,6 +543,7 @@ styling for climate section */
     min-width: 0;
     box-sizing: border-box;
   }
+
   .what-we-do-content h4 {
     width: 100%;
     max-width: 15rem;
@@ -487,6 +553,7 @@ styling for climate section */
     margin-left: 0;
     padding-left: 2rem;
   }
+
   .what-we-do-content p {
     width: 100%;
     font-size: 0.93rem;
@@ -502,6 +569,99 @@ styling for climate section */
     left: 25%;
     bottom: 2rem;
     margin: 0;
+  }
+
+  .take-action-today-container {
+    background-image: url("/assets//home/Did\ you\ know\ background@2x.png");
+    padding: 3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .take-action-today-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .taken-action-card span {
+    transform: translateX(-1.25rem);
+    padding: 0.8rem;
+  }
+
+  .stories-container {
+    position: relative;
+    padding: 4rem 3rem;
+    min-height: 33rem;
+  }
+
+  .story-image-holder {
+    position: relative;
+    width: 36rem;
+    height: 33rem;
+    transform: translateX(2%);
+  }
+
+  .story-image-holder img {
+    width: 36rem;
+    height: 33rem;
+    display: block;
+    position: relative;
+    left: 0;
+  }
+
+  .story-image-holder span {
+    position: absolute;
+    top: -1rem;
+    left: 20%;
+    transform: translateX(-50%);
+    width: 9rem;
+    z-index: 10;
+  }
+
+  .story-text-content {
+    position: absolute;
+    top: 50%;
+    left: 12rem;
+    transform: translateY(20%);
+    width: 31.75rem;
+
+    z-index: 20;
+  }
+
+  .story-text-container {
+    margin: 0;
+    padding: 2.5rem 3rem;
+    background-color: #354463;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .story-text-heading {
+    color: white;
+    font-size: 1.75rem;
+    line-height: 1.25;
+    font-weight: bold;
+  }
+
+  .story-text-footer {
+    color: white;
+    font-size: 0.73rem;
+    margin-top: 1rem;
+  }
+
+  .story-btn {
+    margin: 1.875rem 0 0 0;
+    align-self: flex-start;
+    border: none;
+    border-radius: 1.25rem;
+    background-color: #c1f7d5;
+    width: 9.75rem;
+    padding: 0.625rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #354463;
   }
 }
 
@@ -528,6 +688,7 @@ for desktop responsive */
   .navbar-title h1 {
     font-size: 1.4rem;
   }
+
   .nav-links {
     font-size: 1rem;
     flex-direction: row;
@@ -569,6 +730,7 @@ for desktop responsive */
     width: 36rem;
     min-height: 18rem;
   }
+
   .issue-label {
     padding: 0.75rem 2rem;
     font-size: 0.9rem;
@@ -601,6 +763,7 @@ for desktop responsive */
   .action-box h3 {
     font-size: 2rem;
   }
+
   .action-wrapper {
     padding: 4rem 8rem;
   }
@@ -611,6 +774,7 @@ for desktop responsive */
     padding: 3.5rem 8rem 4rem;
     box-sizing: border-box;
   }
+
   .what-we-do-label {
     width: 9.2rem;
     height: auto;
@@ -620,6 +784,7 @@ for desktop responsive */
     font-size: 0.9rem;
     text-align: center;
   }
+
   .what-we-do-container > p {
     width: 100%;
     margin: 0 0 4.5rem 0;
@@ -656,7 +821,6 @@ for desktop responsive */
     box-sizing: border-box;
   }
 
-  
   .what-we-do-card .img {
     width: 20rem;
     height: 12.9rem;
@@ -667,7 +831,6 @@ for desktop responsive */
     transform: translate(10%, -10%);
   }
 
-
   .what-we-do-content {
     width: 100%;
     display: flex;
@@ -677,8 +840,6 @@ for desktop responsive */
     margin-top: -0.5rem;
     box-sizing: border-box;
   }
-
- 
 
   .what-we-do-content h4 {
     width: 100%;
@@ -717,5 +878,135 @@ for desktop responsive */
     font-size: 1rem;
     font-weight: bold;
     margin-top: 2rem;
+  }
+
+  .take-action-today-container {
+    background-image: url("/assets/home/Did\ you\ know\ background@2xweb.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    /* padding-top: 8.9rem;
+    padding-left: 10.1rem;
+    padding-right: 10.1rem;
+    padding-bottom: 7.9rem; */
+  }
+
+  .take-action-today-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .taken-action-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .taken-action-logo h2 {
+    order: 1;
+    padding-left: 5rem;
+  }
+
+  .take-action-btn {
+    order: 2;
+    margin-top: 1rem;
+    margin-left: 5rem;
+  }
+
+  .taken-action-card-holder {
+    display: grid;
+    grid-template-rows: repeat(4, fr);
+  }
+
+  .taken-action-card {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    width: 34rem;
+    height: 12.5rem;
+  }
+
+  .action-card-text-container h2 {
+    font-size: 2.75rem;
+  }
+
+  .action-card-text-container p {
+    font-size: 1.25rem;
+  }
+
+  .take-action-btn {
+    margin-top: 3.5rem;
+  }
+
+  /* 
+stories container */
+
+  .stories-container {
+    position: relative;
+    padding: 5rem 18rem 5rem 0rem;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .story-image-holder {
+    position: relative;
+    width: 40rem;
+    height: 35.5rem;
+  }
+
+  .story-image-holder img {
+    width: 40rem;
+    height: 35.5rem;
+    position: relative;
+  }
+
+  .story-image-holder span {
+    position: absolute;
+    top: -1rem;
+    left: 20%;
+    transform: translateX(-50%);
+    width: 10rem;
+    z-index: 10;
+  }
+
+  .story-text-content {
+    top: 55%;
+    transform: translateY(-50%);
+    width: 45%;
+    z-index: 20;
+  }
+
+  .story-text-container {
+    margin: 0;
+    padding: 4rem 5rem;
+    background-color: #354463;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+
+  .story-text-heading {
+    color: white;
+    font-size: 1.86rem;
+    font-weight: bold;
+  }
+
+  .story-text-footer {
+    color: white;
+    font-size: 0.73rem;
+    margin-top: 1.0625rem;
+  }
+
+  .story-btn {
+    margin: 1.875rem 0 0 0;
+    align-self: flex-start;
+    border: none;
+    border-radius: 1.25rem;
+    background-color: #c1f7d5;
+    width: 9.75rem;
+    padding: 0.625rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #354463;
   }
 }
