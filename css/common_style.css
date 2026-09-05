@@ -1,0 +1,105 @@
+footer {
+  padding: 4rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+footer .title {
+  margin-right: 2rem;
+}
+
+.footer-section .climate-title {
+  color: #354463;
+  margin-bottom: 0;
+  grid-column: 2;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  color: #354463;
+  gap: 0.5rem;
+  text-decoration: underline;
+}
+
+.contact-links a {
+  font-size: 0.875rem;
+}
+
+.contact-title {
+  color: #354463;
+  font-size: 0.6875rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact {
+  color: #354463;
+  font-size: 0.875rem;
+  font-weight: lighter;
+  grid-column: 2;
+  grid-row: 3;
+  width: min-content;
+}
+
+.climate-title {
+  font-family: "flood-std", regular;
+  color: #ffffff;
+  font-size: 2.75rem;
+  margin-bottom: 10rem;
+}
+
+.title {
+  font-size: 1.1rem;
+  color: #354463;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 480px) {
+  .footer-section {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .learn-more {
+    grid-column: 2;
+  }
+
+  .footer-section .climate-title {
+    grid-column: 3;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .footer-section {
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr;
+    padding: 6rem;
+  }
+
+  .footer-section .title-style {
+    margin-right: 0;
+  }
+
+  .learn-more {
+    grid-column: 4;
+  }
+
+  .contact-title {
+    font-size: 0.875rem;
+    border-bottom: 1px solid #354463;
+    margin-right: 3rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .contact {
+    width: min-content;
+  }
+
+  .footer-section .climate-title {
+    grid-column: 5;
+    margin-top: -1rem;
+    font-size: 2.75rem;
+  }
+}

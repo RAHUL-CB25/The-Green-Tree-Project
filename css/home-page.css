@@ -224,12 +224,12 @@ styling for climate section */
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 0.93rem;
   background-color: white;
 }
 
 .what-we-do-content p {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   color: #354463;
   font-size: 0.93rem;
   font-weight: 100;
@@ -262,9 +262,9 @@ styling for climate section */
   color: #354463;
   margin-bottom: 0.9rem;
   border: none;
-  border-radius: 20px;
-  width: 156px;
-  padding: 10px;
+  border-radius: 1.25rem;
+  width: 9.75rem;
+  padding: 0.625rem;
   font-size: 1.1rem;
   font-weight: bold;
 }
@@ -378,9 +378,9 @@ styling for climate section */
 }
 
 .story-text-container {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   background-color: #354463;
-  padding: 20px;
+  padding: 1.25rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -395,19 +395,108 @@ styling for climate section */
 .story-text-footer {
   color: white;
   font-size: 0.73rem;
-  margin-top: 17px;
+  margin-top: 1.06rem;
 }
 
 .story-btn {
-  margin: 30px;
+  margin: 1.875rem;
   border: none;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   background-color: #c1f7d5;
-  width: 156px;
-  padding: 10px;
+  width: 9.75rem;
+  padding: 0.625rem;
   font-size: 1.1rem;
   font-weight: bold;
   color: #354463;
+}
+
+.event-container {
+  padding: 3.5rem;
+  background-color: #344766;
+  text-align: center;
+}
+.event-image-content {
+  position: relative;
+  margin-top: 4rem;
+}
+
+.event-image-content .event-img {
+  width: 20rem;
+  height: 20rem;
+}
+.absolute-event-box {
+  position: absolute;
+  background-color: white;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+  top: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.event-text-content {
+  text-align: center;
+}
+.event-text-heading {
+  font-size: 1.375rem;
+  color: white;
+  font-weight: bold;
+  padding: 2rem 0rem;
+}
+
+.event-text {
+  font-size: 1rem;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.subscribe-container {
+  padding: 5rem 3rem;
+  background-color: #c1f7d5;
+  display: flex;
+  flex-direction: column;
+  gap: 1.87rem;
+}
+
+.subscribe-text {
+
+  font-size: 1.46rem;
+  line-height: 1.75rem;
+  color: #354463;
+  font-weight: bold;
+}
+
+.subscribe-inout-botton-holder {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  /* height: 2.5rem; */
+}
+
+.subscribe-input {
+  width: 60%;
+  border: none;
+  padding: 10.625rem;
+  border-radius: 3.125rem;
+   padding: 1rem;
+   font-size: medium;
+}
+
+.subscribe-input:focus{
+  outline: none;
+}
+
+
+.subscribe-btn{
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  /* width: 6.25rem; */
+  background-color: #354463;
+  color: #c1f7d5;
 }
 
 @media screen and (min-width: 480px) {
@@ -591,8 +680,9 @@ styling for climate section */
 
   .stories-container {
     position: relative;
-    padding: 4rem 3rem;
+    padding: 6rem 3rem;
     min-height: 33rem;
+    margin-bottom: 8.5rem;
   }
 
   .story-image-holder {
@@ -662,6 +752,53 @@ styling for climate section */
     font-size: 1.1rem;
     font-weight: bold;
     color: #354463;
+  }
+  .event-heading {
+    text-align: start;
+  }
+  .event-image-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+  .event-text-content {
+    text-align: start;
+    margin-top: 7rem;
+  }
+  .event-text {
+    padding: 0;
+  }
+  .absolute-event-box {
+    top: 0;
+    left: 19rem;
+    transform: translateX(100%);
+  }
+  .event-text-heading {
+    font-size: 1.75rem;
+    padding-right: 2rem;
+    padding-top: 0rem;
+  }
+
+  .event-box-2 {
+    flex-direction: row-reverse;
+  }
+  .absolute-event-box-2 {
+    left: -8.5rem;
+  }
+
+  .subscribe-text {
+    width: 70%;
+  }
+
+  .subscribe-input {
+    width: 70%;
+    
+  }
+.subscribe-inout-botton-holder{
+  gap:2rem;
+}
+  .subscribe-btn {
+    width: 10rem;
   }
 }
 
@@ -1009,4 +1146,57 @@ stories container */
     font-weight: bold;
     color: #354463;
   }
+
+  .event-container {
+    padding: 6rem;
+  }
+  .event-image-content .event-img {
+    width: 36rem;
+    height: 36rem;
+  }
+  .absolute-event-box {
+    left: 37rem;
+  }
+  .event-text-heading {
+    font-size: 2.75rem;
+  }
+  .event-text {
+    font-size: 1.25rem;
+  }
+  .absolute-event-box-2 {
+    left: -9rem;
+  }
+  .event-image-content {
+    gap: 6rem;
+  }
+  .event-text-content .btn {
+    all: unset;
+    background-color: #c1f7d5;
+    color: #344766;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+  }
+
+  .subscribe-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 6rem;
+  }
+
+  .subscribe-inout-botton-holder {
+    height: 3rem;
+  }
+  
+  .subscribe-text{
+    width: 100%;
+  }
+  .subscribe-text{
+    font-size: 1.75rem;
+  }
+
+
 }

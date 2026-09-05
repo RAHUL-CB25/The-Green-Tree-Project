@@ -6,10 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="/css/home-page.css" />
   <link rel="stylesheet" href="https://use.typekit.net/qux1zmr.css" />
-  <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
-    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="/css/common_style.css">
   <title>Green-Tree-Initiative</title>
 </head>
 
@@ -23,16 +22,16 @@
         </h1>
       </div>
       <ul class="nav-links">
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Our Stories</a></li>
-        <li><a href="#">News and events</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#stories">Our Stories</a></li>
+        <li><a href="#events">News and events</a></li>
       </ul>
     </div>
 
     <button class="nav-btn">Donate today</button>
   </nav>
 
-  <section class="main-section main-layout">
+  <section class="main-section main-layout" id="issue">
     <div class="main-content main-content-layout">
       <h2 class="main-title">
         #STOP <br />
@@ -82,7 +81,7 @@
   </section>
 
   <!-- What we do section -->
-  <div class="what-we-do-container wrap">
+  <div class="what-we-do-container wrap" id="about-us">
     <div class="snack-white what-we-do-label">WHAT WE DO</div>
     <p>
       Our mission is to create sustainable work for women in developing nations while helping to slow climate change.
@@ -122,7 +121,6 @@
 
 
 
-
   <div class="take-action-today-container">
     <div class="taken-action-logo">
       <h2 class="main-title">
@@ -144,16 +142,16 @@
 
         <div class="action-card-logo-container">
           <div class="img-logo">
-          <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-twitter"></i>
           </div>
           <div class="img-logo">
-           <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-facebook-f"></i>
           </div>
         </div>
       </div>
 
 
-       <div class="taken-action-card">
+      <div class="taken-action-card">
         <div class="action-card-text-container">
           <h2 class="action-card-title">100 million +</h2>
           <p class="action-card-content">People living in poverty depend on agriculture for survival</p>
@@ -161,10 +159,10 @@
 
         <div class="action-card-logo-container">
           <div class="img-logo">
-          <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-twitter"></i>
           </div>
           <div class="img-logo">
-           <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-facebook-f"></i>
           </div>
         </div>
       </div>
@@ -178,10 +176,10 @@
 
         <div class="action-card-logo-container">
           <div class="img-logo">
-          <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-twitter"></i>
           </div>
           <div class="img-logo">
-           <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-facebook-f"></i>
           </div>
         </div>
       </div>
@@ -195,10 +193,10 @@
 
         <div class="action-card-logo-container">
           <div class="img-logo">
-          <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-twitter"></i>
           </div>
           <div class="img-logo">
-           <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-facebook-f"></i>
           </div>
         </div>
       </div>
@@ -207,25 +205,122 @@
   </div>
 
 
-  <div class="stories-container">
-     <div class="story-image-holder">
-        <span class="issue-label issue-label-layout"> STORIES </span>
-          <img src="../assets/home/lady-baby.png" alt="lady-baby">
-     </div>
-  
-          <div class="story-text-content">
-            <div class="story-text-container">
-                <div class="story-text-heading">
-                    “I am a person who was helped by this organization. Before they gave me assistance, I was really struggling with this issue, but now my life is better.”
-                </div>
-                <div class="story-text-footer">
-                    BALKI, FARMER AND MOTHER IN NIGER
-                </div>
-            </div>
-            <button class="story-btn">Read more</button>
-        </div>
+  <div class="stories-container" id="stories">
+    <div class="story-image-holder">
+      <span class="issue-label issue-label-layout"> STORIES </span>
+      <img src="../assets/home/lady-baby.png" alt="lady-baby">
+    </div>
 
-  </div> 
+    <div class="story-text-content">
+      <div class="story-text-container">
+        <div class="story-text-heading">
+          “I am a person who was helped by this organization. Before they gave me assistance, I was really struggling
+          with this issue, but now my life is better.”
+        </div>
+        <div class="story-text-footer">
+          BALKI, FARMER AND MOTHER IN NIGER
+        </div>
+      </div>
+      <button class="story-btn">Read more</button>
+    </div>
+
+  </div>
+
+
+  <section class="event-container " id="events">
+    <p class="event-heading">
+      <span class="main-title">LET’S Take action now to save the future.</span>
+    </p>
+
+    <div class="event-image-content">
+
+      <div class="absolute-event-box">EVENT</div>
+
+      <img class="event-img" src="/assets/home/tree-planting@3x.png" />
+
+
+
+      <div class="event-text-content">
+        <p class="event-text-heading">
+          Earth Day 2018 community tree planting event
+        </p>
+        <p class="event-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi felis, auctor vitae vestibulum vel,
+          consequat eu dolor. Nam pellentesque euismod laoreet. Aliquam sed nisl porttitor nisl laoreet semper nec
+          iaculis nibh. Curabitur in tortor lorem.
+        </p>
+        <button class="btn what-we-do-btn">Read more</button>
+
+      </div>
+
+
+    </div>
+    <div class="event-image-content event-box-2">
+      <div class="absolute-event-box absolute-event-box-2">LATEST NEWS</div>
+      <img class="event-img" src="/assets/home/meeting.png" />
+
+      <div class="event-text-content">
+        <p class="event-text-heading">
+          Updates from the fall quarterly meeting
+        </p>
+        <p class="event-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi felis, auctor vitae vestibulum vel,
+          consequat eu dolor. Nam pellentesque euismod laoreet. Aliquam sed nisl porttitor nisl laoreet semper nec
+          iaculis nibh. Curabitur in tortor lorem.
+        </p>
+        <button class="btn what-we-do-btn">Read more</button>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="subscribe-container " id="connect">
+
+    <p class="subscribe-text">
+      Subscribe to our monthly newsletter and stay up to date with all news and events.
+    </p>
+    <div class="subscribe-inout-botton-holder">
+      <input type="text" class="subscribe-input" placeholder="Enter your email address" />
+      <button class="btn subscribe-btn">Subscribe</button>
+    </div>
+  </section>
+
+
+  <footer class="footer-section">
+    <h1 class="title title-style">
+      The Green <br />
+      Trees Initiative
+    </h1>
+    <div class="contact-us">
+      <h5 class="contact-title">CONTACT US</h5>
+      <p class="contact">
+        123 Anywhere St. Cityname, NY 11206 (123) 456-7890 contact@npo.org
+      </p>
+    </div>
+    <div class="follow-us">
+      <h5 class="contact-title">FOLLOW US</h5>
+      <div class="contact-links">
+        <a href="/">Facebook</a>
+        <a href="/">Twitter</a>
+        <a href="/">Instagram</a>
+        <a href="/">Medium</a>
+      </div>
+    </div>
+    <div class="learn-more">
+      <h5 class="contact-title">LEARN MORE</h5>
+      <div class="contact-links">
+        <a href="#issue">The issue</a>
+        <a href="#about-us">How we help</a>
+        <a href="#connect">Get involved</a>
+        <a href="#events">Latest news</a>
+      </div>
+    </div>
+    <h1 class="climate-title">
+      #STOP<br />
+      CLIMATE<br />CHANGE
+    </h1>
+  </footer>
 
 
 
