@@ -1,7 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+/* mobile as base */
+/* 
+header section  */
 
 .header {
   width: 100%;
@@ -25,6 +24,8 @@
   text-decoration: none;
   color: #344766;
 }
+
+/* donation form section */
 
 .wrap {
   padding: 0 2rem;

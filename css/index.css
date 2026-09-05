@@ -1,8 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: Helvetica;
-}
+
+/* mobile as base */
+
+/* navbar section */
 
 .navbar {
   padding: 1.25rem;
@@ -54,10 +53,13 @@
   border: none;
   padding: 0.5rem;
   text-decoration: none;
+  display: block;
+  text-align: center;
+  
 }
 
 /* 
-styling for climate section */
+styling for climate section landing page */
 .main-section {
   background-image: url("../assets/home/annie-spratt-135307-unsplash@2x-mobile.png");
   background-size: cover;
@@ -141,6 +143,7 @@ styling for climate section */
   padding-top: 4rem;
 }
 
+
 /* TAKE ACTION box */
 
 .action-style h2 {
@@ -168,7 +171,6 @@ styling for climate section */
 }
 
 /* INDIVIDUAL BOXES */
-
 .action-box {
   padding: 1rem 1.5rem 1rem 2rem;
 }
@@ -271,7 +273,6 @@ styling for climate section */
 }
 
 /* Take action today container start */
-
 .take-action-today-container {
   background-image: url("/assets//home/takeaction@2x.png");
   padding: 3rem;
@@ -411,6 +412,8 @@ styling for climate section */
   color: #354463;
 }
 
+/* 
+event section */
 .event-container {
   padding: 3.5rem;
   background-color: #344766;
@@ -451,6 +454,9 @@ styling for climate section */
   padding: 1rem;
   margin-bottom: 2rem;
 }
+
+/* 
+.subscribe-section */
 
 .subscribe-container {
   padding: 5rem 3rem;
@@ -500,7 +506,11 @@ styling for climate section */
   color: #c1f7d5;
 }
 
+/* design for tab */
 @media screen and (min-width: 480px) {
+/* 
+  navbar secion */
+
   .nav-container {
     flex-direction: row;
     justify-content: space-between;
@@ -573,11 +583,13 @@ styling for climate section */
   }
 
   /* take action part */
+
   .action-box h3 {
     font-size: 1.5rem;
   }
 
   /* WHAT WE DO - TABLET */
+
   .what-we-do-card-holder {
     width: 100%;
     display: flex;
@@ -660,6 +672,9 @@ styling for climate section */
     bottom: 2rem;
     margin: 0;
   }
+  
+
+  /* Did you know section - take action -today */
 
   .take-action-today-container {
     background-image: url("/assets//home/Did\ you\ know\ background@2x.png");
@@ -679,6 +694,7 @@ styling for climate section */
     padding: 0.8rem;
   }
 
+  /* stories section */
   .stories-container {
     position: relative;
     padding: 6rem 3rem;
@@ -754,6 +770,9 @@ styling for climate section */
     font-weight: bold;
     color: #354463;
   }
+
+   /* event section */
+
   .event-heading {
     text-align: start;
   }
@@ -787,6 +806,8 @@ styling for climate section */
     left: -8.5rem;
   }
 
+  /* .subscriber section */
+
   .subscribe-text {
     width: 70%;
   }
@@ -803,10 +824,14 @@ styling for climate section */
   }
 }
 
+
+
 /* 
 for desktop responsive */
 
 @media screen and (min-width: 1080px) {
+
+  /* navabar part */
   .nav-container {
     flex-direction: row;
     justify-content: space-between;
@@ -838,6 +863,7 @@ for desktop responsive */
     font-size: 1rem;
   }
 
+  /* Isssue section Landing page */
   .main-section {
     background-image: url("../assets/home/annie-spratt-135307-unsplash@2x-desktop.png");
     background-size: cover;
@@ -894,6 +920,7 @@ for desktop responsive */
     margin-bottom: 0;
   }
 
+  /* take action part */
   .action-wrapper-layout {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -905,7 +932,8 @@ for desktop responsive */
   .action-wrapper {
     padding: 4rem 8rem;
   }
-
+/* 
+   what we do conatiner part */
   .what-we-do-container {
     background-color: #354463;
     align-items: flex-start;
@@ -992,7 +1020,6 @@ for desktop responsive */
   }
 
   /* CARD DESCRIPTION */
-
   .what-we-do-content p {
     width: 100%;
     color: #354463;
@@ -1017,6 +1044,8 @@ for desktop responsive */
     font-weight: bold;
     margin-top: 2rem;
   }
+/* 
+  take action part */
 
   .take-action-today-container {
     background-image: url("/assets/home/Did\ you\ know\ background@2xweb.png");
@@ -1148,6 +1177,8 @@ stories container */
     color: #354463;
   }
 
+  /* event section */
+
   .event-container {
     padding: 6rem;
   }
@@ -1179,6 +1210,8 @@ stories container */
     border-radius: 2rem;
     font-weight: bold;
   }
+
+  /* subscribe section */
 
   .subscribe-container {
     display: grid;

@@ -1,4 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
 
+/* Mobile as base */
 
 footer {
   padding: 4rem 3rem;
@@ -57,6 +63,8 @@ footer .title {
   font-weight: bold;
 }
 
+/* for tab */
+
 @media screen and (min-width: 480px) {
   .footer-section {
     grid-template-columns: 1fr 1fr 1fr;
@@ -72,6 +80,8 @@ footer .title {
     grid-column: 3;
   }
 }
+
+/* for desktop */
 
 @media screen and (min-width: 1080px) {
   .footer-section {

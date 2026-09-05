@@ -1,0 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #354463;
+  font-size: 15px;
+  font-family: Helvetica, Regular, sans-serif;
+}
+
+body {
+  width: 100%;
+}
