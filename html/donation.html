@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donation-Page</title>
+    <link rel="stylesheet" href="https://use.typekit.net/qux1zmr.css" />
+    <link rel="stylesheet" href="/css/donation.css" />
+    <link rel="stylesheet" href="../css/common_style.css" />
+  </head>
+  <body>
+    <header class="donation-header">
+      <a class="logo" href="/index.html"> The Green <br />Trees Initiative </a>
+    </header>
+
+    <main class="donation-form-container wrap">
+      <p class="donation-form-header">
+        <span>Give HOPE to those</span> <span>Who need It most</span>
+      </p>
+
+      <form class="donation-form">
+        <section class="form-user-section">
+          <p class="form-section-heading">Your information</p>
+          <div class="name-lastName">
+            <div class="form-item first-name">
+              <label>FIRST NAME</label>
+              <input type="text" placeholder="First name" />
+            </div>
+
+            <div class="form-item last-name">
+              <label>LAST NAME</label>
+              <input type="text" placeholder="Last name" />
+            </div>
+          </div>
+
+          <div class="form-item street-address">
+            <label>STREET ADDRESS</label>
+            <input type="text" placeholder="Street address" />
+          </div>
+
+          <div class="address-city-state-zip">
+            <div class="form-item city-name">
+              <label>CITY</label>
+              <input type="text" placeholder="City name" />
+            </div>
+
+            <div class="form-item state">
+              <label>STATE</label>
+              <!-- <input type="text" placeholder="AL"/> -->
+              <select id="state" name="state" required>
+                <option class="selected" value="" disabled selected>AL</option>
+                <!-- States -->
+                <option value="AP">Andhra Pradesh</option>
+                <option value="AR">Arunachal Pradesh</option>
+                <option value="AS">Assam</option>
+                <option value="BR">Bihar</option>
+                <option value="CG">Chhattisgarh</option>
+                <option value="GA">Goa</option>
+                <option value="GJ">Gujarat</option>
+                <option value="HR">Haryana</option>
+                <option value="HP">Himachal Pradesh</option>
+                <option value="JH">Jharkhand</option>
+                <option value="KA">Karnataka</option>
+                <option value="KL">Kerala</option>
+                <option value="MP">Madhya Pradesh</option>
+                <option value="MH">Maharashtra</option>
+                <option value="MN">Manipur</option>
+                <option value="ML">Meghalaya</option>
+                <option value="MZ">Mizoram</option>
+                <option value="NL">Nagaland</option>
+                <option value="OD">Odisha</option>
+                <option value="PB">Punjab</option>
+                <option value="RJ">Rajasthan</option>
+                <option value="SK">Sikkim</option>
+                <option value="TN">Tamil Nadu</option>
+                <option value="TS">Telangana</option>
+                <option value="TR">Tripura</option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="UK">Uttarakhand</option>
+                <option value="WB">West Bengal</option>
+
+                <!-- Union Territories -->
+                <option value="AN">Andaman and Nicobar Islands</option>
+                <option value="CH">Chandigarh</option>
+                <option value="DN">
+                  Dadra and Nagar Haveli and Daman and Diu
+                </option>
+                <option value="DL">Delhi</option>
+                <option value="JK">Jammu and Kashmir</option>
+                <option value="LA">Ladakh</option>
+                <option value="LD">Lakshadweep</option>
+                <option value="PY">Puducherry</option>
+              </select>
+            </div>
+
+            <div class="form-item zip-code">
+              <label>ZIP CODE</label>
+              <input type="text" placeholder="Zip code" />
+            </div>
+          </div>
+
+          <div class="form-item email-address">
+            <label>EMAIL ADDRESS</label>
+            <input type="text" placeholder="Email address" />
+          </div>
+        </section>
+
+        <section class="form-user-section">
+          <p class="form-section-heading heading-2">Payment information</p>
+          <div class="form-item credit-card-number">
+            <label>CREDIT CARD NUMBER</label>
+            <input type="text" placeholder="Credit card number" />
+          </div>
+
+          <div class="expiry-cvc">
+            <div class="form-item">
+              <label>EXPIRATION</label>
+              <div class="form-date-handler">
+                <input type="number" placeholder="MM" />
+                <input type="year" placeholder="YYYY" />
+              </div>
+            </div>
+
+            <div class="form-item cvc">
+              <label>SECURITY CODE</label>
+              <input type="text" placeholder="CVC" />
+            </div>
+          </div>
+        </section>
+
+        <section class="">
+          <p class="form-section-heading">
+            Click the button to confirm your donation of $10, recurring monthly.
+          </p>
+        </section>
+
+        <section class="form-buttons">
+          <button class="payment-btn btn">Process Payment</button>
+          <a href="./index.html" class="go-back-btn">Go Back</a>
+        </section>
+      </form>
+    </main>
+
+    <footer class="footer-section">
+      <h1 class="title title-style">
+        The Green <br />
+        Trees Initiative
+      </h1>
+      <div class="contact-us">
+        <h5 class="contact-title">CONTACT US</h5>
+        <p class="contact">
+          123 Anywhere St. Cityname, NY 11206 (123) 456-7890 contact@npo.org
+        </p>
+      </div>
+      <div class="follow-us">
+        <h5 class="contact-title">FOLLOW US</h5>
+        <div class="contact-links">
+          <a href="/">Facebook</a>
+          <a href="/">Twitter</a>
+          <a href="/">Instagram</a>
+          <a href="/">Medium</a>
+        </div>
+      </div>
+      <div class="learn-more">
+        <h5 class="contact-title">LEARN MORE</h5>
+        <div class="contact-links">
+          <a href="#issue">The issue</a>
+          <a href="#about-us">How we help</a>
+          <a href="#connect">Get involved</a>
+          <a href="#events">Latest news</a>
+        </div>
+      </div>
+      <h1 class="climate-title">
+        #STOP<br />
+        CLIMATE<br />CHANGE
+      </h1>
+    </footer>
+  </body>
+</html>

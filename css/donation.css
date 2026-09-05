@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.25rem 1.875rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.625rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  color: #344766;
+}
+
+.wrap {
+  padding: 0 2rem;
+}
+
+.donation-form-container {
+  background-image: url("/assets/donation/annie-spratt-427340-unsplash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+.donation-form-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.donation-form-header span {
+  font-family: "Flood-std", regular;
+  font-size: 2.133rem;
+  color: white;
+}
+
+.donation-form {
+  background-color: #354463;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 3rem;
+}
+
+.form-section-heading {
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: bold;
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 2rem;
+}
+
+.heading-2 {
+  margin-top: 2rem;
+}
+
+.form-user-section {
+  display: grid;
+  gap: 1.5rem;
+}
+
+label {
+  color: white;
+  font-size: 0.875rem;
+}
+
+.form-item {
+  background: none;
+  border: none;
+  border-bottom: 0.125rem solid #c1f7d5;
+  color: white;
+  font-size: 1rem;
+  font-family: Helvetica, sans-serif;
+  padding: 0.125rem 0;
+  flex: 1;
+  gap: 0.6rem;
+}
+
+input,
+select {
+  font-size: 1.25rem;
+  background-color: #344766;
+  border: none;
+  width: 100%;
+  color: white;
+}
+
+input,
+select:focus {
+  outline: none;
+}
+
+.name-lastName,
+.address-city-state-zip,
+.expiry-cvc,
+.form-date-handler {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  min-width: auto;
+}
+
+.form-date-handler {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.form-buttons {
+  display: grid;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.payment-btn {
+  border: none;
+  border-radius: 1.25rem;
+  background-color: #c1f7d5;
+  width: 9.75rem;
+  padding: 0.625rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  width: 100%;
+}
+
+.go-back-btn {
+  font-size: 0.933rem;
+  color: #c1f7d5;
+}
+
+.donation-footer {
+  padding-top: 2rem;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/* tab view styles below */
+@media screen and (min-width: 30rem) {
+  .wrap {
+    padding: 1.875rem 4rem;
+  }
+
+  .donation-form {
+    padding: 4rem;
+  }
+
+  .form-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .payment-btn {
+    width: 80%;
+    grid-column: 2;
+  }
+
+  .go-back-btn {
+    font-size: 1.06rem;
+    grid-row: 1;
+  }
+}
+
+/* desktop styles below */
+@media screen and (min-width: 67.5rem) {
+  .wrap {
+    padding: 2.5rem 10rem;
+  }
+
+  .donation-form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3.125rem;
+  }
+
+  .form-section-heading {
+    font-size: 1.75rem;
+  }
+
+  .donation-form-header {
+    grid-column: 2;
+  }
+
+  .donation-form-header span {
+    font-size: 4.8rem;
+    line-height: 5.06rem;
+  }
+
+  .donation-form {
+    grid-row: 1;
+  }
+
+  .donation-form {
+    padding: 4rem;
+  }
+
+  .form-buttons {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+  }
+
+  .payment-btn {
+    width: 100%;
+    grid-column: 2;
+  }
+
+  .go-back-btn {
+    font-size: 1.1rem;
+    grid-row: 1;
+  }
+}
