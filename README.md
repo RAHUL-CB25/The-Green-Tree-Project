@@ -46,7 +46,7 @@ Green-Tree-Initiative/
 Clone the repository using:
 
 ```bash
-git clone <your-gitlab-repository-url>
+git clone :
 ```
 
 Go to the project folder:
