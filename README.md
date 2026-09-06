@@ -6,7 +6,7 @@ The project contains a home page and a donation page based on the provided wiref
 
 ## Live Demo
 
-[View Live Website](DEPLOYMENT_LINK)
+[View Live Website](https://the-green-tree.netlify.app/)
 
 ## Technologies Used
 
@@ -46,7 +46,7 @@ Green-Tree-Initiative/
 Clone the repository using:
 
 ```bash
-git clone :
+git clone https://github.com/RAHUL-CB25/The-Green-Tree-Project.git
 ```
 
 Go to the project folder:
@@ -56,11 +56,6 @@ cd Green-Tree-Initiative
 ```
 
 Open the project in VS Code:
-
-```bash
-code .
-```
-
 ## How to Run the Project
 
 This project uses only HTML and CSS, so no additional installation is required.
