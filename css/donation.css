@@ -51,6 +51,7 @@ header section  */
   font-family: "Flood-std", regular;
   font-size: 2.133rem;
   color: white;
+ 
 }
 
 .donation-form {
@@ -69,6 +70,7 @@ header section  */
   grid-column: 1;
   grid-row: 1;
   margin-top: 2rem;
+  
 }
 
 .heading-2 {
@@ -212,6 +214,7 @@ select:focus {
   .donation-form-header span {
     font-size: 4.8rem;
     line-height: 5.06rem;
+    padding-top: 1.5rem;
   }
 
   .donation-form {
