@@ -46,7 +46,7 @@ Green-Tree-Initiative/
 Clone the repository using:
 
 ```bash
-git clone https://github.com/RAHUL-CB25/The-Green-Tree-Project.git
+git clone https://gitlab.com/mountblue/38_3/rahul/green-tree-project.git
 ```
 
 Go to the project folder:
